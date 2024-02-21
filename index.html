@@ -2,24 +2,31 @@
 No olvides colocar un comentario por cada cosa que modifiques-->
 
 <!DOCTYPE html>
-<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-- >
+<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo--> <!-- error de espacio en el comentario -->
 <head>
-<meta charset=”UTF-65”>
-<meta name="viewport" content="Ejercicio HTML - Corrige los errores">
+<meta charset="UTF-8"> <!-- comillas no son las adecuadas ”UTF-65” y UTF-8, lo correcto es "UTF-8"-->
+<meta name="description" content="Ejercicio HTML - Corrige los errores"> <!-- cambiar argumento viewport por description -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>World Wide Web</title> <!-- title va dentro de head, no después de body -->
 </head>
-<title>World Wide Web</title>
-<body>
 
+<body>
+<!-- quitamos title de aquí y se pasó antes de la etiqueta de cierre head -->
+<main> <!-- Agregamos etiqueta main de apertura -->
 <h1>World Wide Web</h1>
 
 <p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
-
-<h2>Historia<h2>
-
+En informática, la <strong>World Wide Web</strong>(WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+<!--Agregamos diagonal para completar la etiqueta de cierre de strong arriba en p--> 
+</p> <!--Faltaba etiqueta de cierre de p y se movió arriba de h2-->
+<h2>Historia</h2> <!--Agregamos diagonal para completar la etiqueta de cierre de h2--> 
+<!-- se borró la etiqueta p de aquí, arriba de h2-->
 <p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
+La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN</em> en Ginebra, Suiza, y publicado en 1992. <!--Se agregó la etiqueta de cierre em, después de CERN -->
 </p>
 
-<p>Fuente: <em>Wikipedia</p></em>
+<p>Fuente: <em>Wikipedia</em> </p> <!--Se cambió la etiqueta de cierre em antes de la etiqueta de cierre de p. La etiqueta p podria ser cambiada por footer-->
+</main> <!--Agregamos etiqueta main de cierre-->
+</body> <!--Agregamos etiqueta body de cierre-->
+</html> <!--Agregamos etiqueta html de cierre-->
+
