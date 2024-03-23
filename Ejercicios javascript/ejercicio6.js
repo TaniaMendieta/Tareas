@@ -24,3 +24,10 @@ function ordenamientoBurbuja(arr) {
   let entrada = [3, 6, 12, 5, 100, 1];
   let arregloOrdenado = ordenamientoBurbuja(entrada);
   console.log(arregloOrdenado); 
+
+
+
+
+
+
+  

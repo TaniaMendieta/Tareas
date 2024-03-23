@@ -38,3 +38,11 @@ for (let i = 0; i < people.length; i++) {
   console.log("El índice de Maria es:", indexOfMaria);
   
   console.log(people); // At the end of the exercise, there should be 4 people in the array.
+
+
+
+
+
+
+
+  
